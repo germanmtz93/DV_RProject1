@@ -1,0 +1,51 @@
+---
+output:
+  html_document:
+    pandoc_args:
+    - +RTS
+    - -K64m
+    - -RTS
+  pdf_document: default
+---
+DV RProject 1
+===
+###German Martinez
+###GFM367
+**For Dr Cannata’s First Homework assignment we were; (1st) instructed to obtain data from the Titanic SQL file online. (2nd) Create an RProject where we will store an .rmd file, some data details, and a few ggplot programs. (3rd) Create an .RMD file to be KnitR-ed into this HTML file to demonstrate our process and progress through the project. (4th) Using the original Titanic Data create a data frame and several different ggplots. (5th) Lastly, come up with one ggplot on your own and explain what is its significance.**
+
+###Steps to reproduce the project:
+
+###First Step
+To obtain the data we grabbed the contents from the link provided (in text format) and copy/pasted them onto our SQLDeveloper (which we have an account in) then ran the .txt as a script. Thus creating the Table into our Oracle account.
+
+###Second Step
+Go to RStudio and create a new project then add the 3 folders as categorized
+
+###Third Step
+Create an .rmd file that will be written then knitR-ed into this html you see right now.
+
+###Fourth Step
+Subset
+
+```{r}
+n = c(2, 3, 5) 
+s = c("aa", "bb", "cc") 
+b = c(TRUE, FALSE, TRUE) 
+df = data.frame(n, s, b)       # df is a data frame
+head(df)
+``` 
+
+Table 1 + code used to produce it
+Table 2 + code used to produce it
+Table 3 + code used to produce it
+Table 4 + code used to produce it
+Table 5 + code used to produce it
+
+###Fifth Step
+TableNew
+TableNew is important because……
+
+**German Martinez
+gfm367**
+
+

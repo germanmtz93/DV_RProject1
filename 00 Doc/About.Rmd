@@ -9,7 +9,7 @@ output:
 ---
 DV RProject 1
 ===
-###German Martinez
+###German Martinez & Garrett Kreitman
 ###GFM367
 **For Dr Cannata’s First Homework assignment we were; (1st) instructed to obtain data from the Titanic SQL file online. (2nd) Create an RProject where we will store an .rmd file, some data details, and a few ggplot programs. (3rd) Create an .RMD file to be KnitR-ed into this HTML file to demonstrate our process and progress through the project. (4th) Using the original Titanic Data create a data frame and several different ggplots. (5th) Lastly, come up with one ggplot on your own and explain what is its significance.**
 

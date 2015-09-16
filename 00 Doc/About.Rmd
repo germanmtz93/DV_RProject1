@@ -22,28 +22,24 @@ To obtain the data we grabbed the contents from the link provided (in text forma
 Go to RStudio and create a new project then add the 3 folders as categorized
 
 ###Third Step
-Create an .rmd file that will be written then knitR-ed into this html you see right now.
+Create an .rmd file that will be written then knitR-ed into this html you see right now.2
 
 ###Fourth Step
 Subset
 
-```{r}
-n = c(2, 3, 5) 
-s = c("aa", "bb", "cc") 
-b = c(TRUE, FALSE, TRUE) 
-df = data.frame(n, s, b)       # df is a data frame
-head(df)
-``` 
+Summary
 
-Table 1 + code used to produce it
-Table 2 + code used to produce it
-Table 3 + code used to produce it
-Table 4 + code used to produce it
-Table 5 + code used to produce it
+Table1
+
+```{r}
+source("../02 Visualizations/TitanicTable1.R", echo = TRUE)
+```
 
 ###Fifth Step
 TableNew
-TableNew is important because……
+
+In this new table we can compare 
+
 
 **German Martinez
 gfm367**

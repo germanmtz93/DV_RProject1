@@ -28,20 +28,45 @@ Create an .rmd file that will be written then knitR-ed into this html you see ri
 Subset
 
 Summary
+```{r}
+source("../02 Visualizations/summary.R", echo = TRUE)
+```
 
-Table1
-
+Table 1
 ```{r}
 source("../02 Visualizations/TitanicTable1.R", echo = TRUE)
+```
+
+Table 2
+```{r}
+source("../02 Visualizations/TitanicTable2.R", echo = TRUE)
+```
+
+Table 3
+```{r}
+source("../02 Visualizations/TitanicTable3.R", echo = TRUE)
+```
+
+Table 4
+```{r}
+source("../02 Visualizations/TitanicTable4.R", echo = TRUE)
+```
+
+Table 5
+```{r}
+source("../02 Visualizations/TitanicTable5.R", echo = TRUE)
 ```
 
 ###Fifth Step
 TableNew
 
-In this new table we can compare 
+```{r}
+source("../02 Visualizations/TitanicTableX.R", echo = TRUE)
+```
+In this new table we can easily see the survived with the gender key. Using this it is easy to see on the table that there is a much larger percentage correlation that most of the woman survived over the men. This is consistant with the common saying "woman and children first" that is expected during evacuation scenarios. 
 
 
-**German Martinez
-gfm367**
+**German Martinez & Garrett Kreitman
+GFM367 , GLK359**
 
 

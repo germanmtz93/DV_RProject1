@@ -63,6 +63,8 @@ TableNew
 ```{r}
 source("../02 Visualizations/TitanicTableX.R", echo = TRUE)
 ```
+
+
 In this new table we can easily see the survived with the gender key. Using this it is easy to see on the table that there is a much larger percentage correlation that most of the woman survived over the men. This is consistant with the common saying "woman and children first" that is expected during evacuation scenarios. 
 
 

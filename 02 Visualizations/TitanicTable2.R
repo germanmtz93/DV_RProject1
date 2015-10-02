@@ -8,34 +8,14 @@ df <- data.frame(fromJSON(getURL(URLencode('129.152.144.84:5001/rest/native/?que
 #head(df)
 
 require(extrafont)
-ggplot() + 
+ggplot(data = df, aes(x = AGE, y = FARE), color = SEX) +
   coord_cartesian() + 
   scale_x_continuous() +
   scale_y_continuous() +
-  #facet_wrap(~SURVIVED) +
-  #facet_grid(.~SURVIVED, labeller=label_both) + # Same as facet_wrap but with a label.
-  #facet_grid(PCLASS~SURVIVED, labeller=label_both) +
   labs(title='Titanic') +
   labs(x="Age", y=paste("Fare")) +
   layer(data=df, 
         mapping=aes(x=as.numeric(as.character(AGE)), y=as.numeric(as.character(FARE)), color=SEX), 
-        stat="identity", 
-        stat_params=list(), 
-        geom="point",
-        geom_params=list(), 
-        #position=position_identity()
-        position=position_jitter(width=0.3, height=0)
-  )
-
-ggplot() + 
-  coord_cartesian() + 
-  scale_x_continuous() +
-  scale_y_continuous() +
-  #facet_grid(PCLASS~SURVIVED, labeller=label_both) +
-  labs(title='Titanic') +
-  labs(x="AGE", y=paste("FARE")) +
-  layer(data=df, 
-        mapping=aes(x=as.numeric(as.character(AGE), y=as.numeric(as.character(FARE)), color=SEX), 
         stat="identity", 
         stat_params=list(), 
         geom="point",
